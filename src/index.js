@@ -10,6 +10,7 @@ const init = () => {
         title.textContent = data.title
         summary.textContent = data.summary
       });
+      e.target.reset()
   });
 };
 
